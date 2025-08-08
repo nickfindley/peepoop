@@ -9,6 +9,7 @@ function selectRandomImage() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const body = document.getElementById('documentBody');
-    body.style.backgroundImage = 'url("' + selectRandomImage() + '")';
-    body.style.opacity = '1';
+    const imageSrc = selectRandomImage();
+    body.dataset.backgroundImage = imageSrc;
+    body.style.backgroundImage = 'url("' + imageSrc + '")';
 });
