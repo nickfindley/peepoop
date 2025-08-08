@@ -8,6 +8,7 @@ function selectRandomImage() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const body = document.getElementsByTagName('body');
-    body.style.backgroundImage = selectRandomImage();
+    const body = document.getElementById('documentBody');
+    body.style.backgroundImage = 'url("' + selectRandomImage() + '")';
+    body.style.opacity = '1';
 });

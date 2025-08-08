@@ -1,1 +1,1 @@
-body{background-position:50%;background-size:cover}/*# sourceMappingURL=style.css.map */
+body{background-image:none;background-size:cover;opacity:0;transition:opacity 1s ease-in;will-change:opacity}/*# sourceMappingURL=style.css.map */
